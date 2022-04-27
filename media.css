@@ -1,0 +1,152 @@
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .top__info {
+    background-size: 50%;
+    background-position: right 50%;
+  }
+  .card__box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card__item {
+    margin-bottom: 32px;
+  }
+  .card__img {
+    margin-bottom: 10px;
+  }
+  /* footer */
+  .footer {
+   padding-top: 47px;
+   padding-bottom: 64px;
+  }
+  
+  .footer__button {
+    min-width: auto;
+    padding: 3px 30px;
+    margin-top: 40px;
+  }
+
+  .footer__contacts {
+    flex-direction: column;
+    margin-top: 32px;
+  }
+  .footer__contacts li {
+    margin-bottom: 17px;
+  }
+  .footer__top,
+  .footer__bottom{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .footer__info {
+    width: 60%;
+  }
+}
+
+@media (max-width: 667px) {
+  .header__menu {
+    padding-top: 24px;
+  }
+  .top {
+    min-height: 376px;
+  }
+  .top__heading {
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .top__info {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+    min-height: 376px;
+    height: auto;
+}
+  .text-top {
+    width: 100%;
+    text-align: center;
+  }
+  .top__button {
+    font-size: 12px;
+    padding: 2px 12px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+  }
+  .h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .what-we-do {
+    padding-top: 48px;
+  }
+  .card__box {
+    padding-top: 32px;
+  }
+  .card__item {
+    width: 100%;
+  }
+  .text_project {
+    max-width: 100%;
+  }
+  .project__item__text {
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .project__parent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .project__item {
+    margin-top: 18px;
+  }
+  .project__item_margin {
+    margin-right: 0;
+  }
+  .project__parent .project__item__text {
+    font-size: 16px;
+    line-height: 19px;
+    right: auto;
+    left: 15px;
+    top: 20px;
+  }
+  /* footer */
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 32px;
+  }
+  .footer__top,
+  .footer__bottom{
+    max-width: 100%;
+  }
+  .footer__top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .footer__info .h3 {
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  .footer__button {
+    min-width: auto;
+    padding: 3px 10px;
+    margin-top: 40px;
+  }
+  .footer__copy{
+    text-align: center;
+    margin-top: 37px;
+  }
+}
