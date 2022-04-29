@@ -119,6 +119,15 @@
     left: 15px;
     top: 20px;
   }
+  /* page Contacts */
+  .content__block {
+    margin-top: 0px;
+  }
+  .content__info {
+    margin-bottom: 40px;
+  }
+  /* end-page Contacts */
+
   /* footer */
   .footer {
     padding-top: 20px;
